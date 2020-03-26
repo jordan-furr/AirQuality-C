@@ -12,6 +12,15 @@
 		620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCA2385DBF9001500FE /* Assets.xcassets */; };
 		620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCC2385DBF9001500FE /* LaunchScreen.storyboard */; };
 		620C4FD12385DBF9001500FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FD02385DBF9001500FE /* main.m */; };
+		C54C5A1B242BEAD6007E7870 /* JEFCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A1A242BEAD6007E7870 /* JEFCityAirQuality.m */; };
+		C54C5A1F242BEE4E007E7870 /* JEFWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A1E242BEE4E007E7870 /* JEFWeather.m */; };
+		C54C5A22242BEF98007E7870 /* JEFPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A21242BEF98007E7870 /* JEFPollution.m */; };
+		C54C5A25242BF88B007E7870 /* JEFCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A24242BF88B007E7870 /* JEFCityAirQualityController.m */; };
+		C54C5A2A242CD7C6007E7870 /* JEFCountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A29242CD7C6007E7870 /* JEFCountryListViewController.swift */; };
+		C54C5A2C242CD7FE007E7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54C5A2B242CD7FE007E7870 /* Main.storyboard */; };
+		C54C5A2E242CD8F0007E7870 /* JEFStatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A2D242CD8F0007E7870 /* JEFStatesListViewController.swift */; };
+		C54C5A30242CD994007E7870 /* JEFCitiesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A2F242CD994007E7870 /* JEFCitiesListViewController.swift */; };
+		C54C5A33242CE376007E7870 /* JEFCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A32242CE376007E7870 /* JEFCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,20 @@
 		620C4FCD2385DBF9001500FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620C4FCF2385DBF9001500FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		620C4FD02385DBF9001500FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54C5A19242BEAD6007E7870 /* JEFCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFCityAirQuality.h; sourceTree = "<group>"; };
+		C54C5A1A242BEAD6007E7870 /* JEFCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFCityAirQuality.m; sourceTree = "<group>"; };
+		C54C5A1D242BEE4E007E7870 /* JEFWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFWeather.h; sourceTree = "<group>"; };
+		C54C5A1E242BEE4E007E7870 /* JEFWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFWeather.m; sourceTree = "<group>"; };
+		C54C5A20242BEF98007E7870 /* JEFPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFPollution.h; sourceTree = "<group>"; };
+		C54C5A21242BEF98007E7870 /* JEFPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFPollution.m; sourceTree = "<group>"; };
+		C54C5A23242BF88B007E7870 /* JEFCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFCityAirQualityController.h; sourceTree = "<group>"; };
+		C54C5A24242BF88B007E7870 /* JEFCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFCityAirQualityController.m; sourceTree = "<group>"; };
+		C54C5A29242CD7C6007E7870 /* JEFCountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFCountryListViewController.swift; sourceTree = "<group>"; };
+		C54C5A2B242CD7FE007E7870 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C54C5A2D242CD8F0007E7870 /* JEFStatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFStatesListViewController.swift; sourceTree = "<group>"; };
+		C54C5A2F242CD994007E7870 /* JEFCitiesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFCitiesListViewController.swift; sourceTree = "<group>"; };
+		C54C5A31242CDA43007E7870 /* AirQuality ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQuality ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		C54C5A32242CE376007E7870 /* JEFCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,10 @@
 		620C4FBD2385DBF6001500FE /* AirQuality ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				C54C5A31242CDA43007E7870 /* AirQuality ObjC-Bridging-Header.h */,
+				C54C5A2B242CD7FE007E7870 /* Main.storyboard */,
+				C54C5A1C242BEAE0007E7870 /* Model */,
+				C54C5A26242BF896007E7870 /* Controllers */,
 				620C4FD72385DDA8001500FE /* Resources */,
 			);
 			path = "AirQuality ObjC";
@@ -74,6 +101,32 @@
 				620C4FD02385DBF9001500FE /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C54C5A1C242BEAE0007E7870 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A19242BEAD6007E7870 /* JEFCityAirQuality.h */,
+				C54C5A1A242BEAD6007E7870 /* JEFCityAirQuality.m */,
+				C54C5A1D242BEE4E007E7870 /* JEFWeather.h */,
+				C54C5A1E242BEE4E007E7870 /* JEFWeather.m */,
+				C54C5A20242BEF98007E7870 /* JEFPollution.h */,
+				C54C5A21242BEF98007E7870 /* JEFPollution.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C54C5A26242BF896007E7870 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A23242BF88B007E7870 /* JEFCityAirQualityController.h */,
+				C54C5A24242BF88B007E7870 /* JEFCityAirQualityController.m */,
+				C54C5A29242CD7C6007E7870 /* JEFCountryListViewController.swift */,
+				C54C5A2D242CD8F0007E7870 /* JEFStatesListViewController.swift */,
+				C54C5A2F242CD994007E7870 /* JEFCitiesListViewController.swift */,
+				C54C5A32242CE376007E7870 /* JEFCityViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +155,7 @@
 		620C4FB32385DBF6001500FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DVM;
+				CLASSPREFIX = JEF;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "RYAN GREENBURG";
 				TargetAttributes = {
@@ -135,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54C5A2C242CD7FE007E7870 /* Main.storyboard in Resources */,
 				620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */,
 				620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */,
 			);
@@ -147,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54C5A2E242CD8F0007E7870 /* JEFStatesListViewController.swift in Sources */,
+				C54C5A30242CD994007E7870 /* JEFCitiesListViewController.swift in Sources */,
+				C54C5A25242BF88B007E7870 /* JEFCityAirQualityController.m in Sources */,
+				C54C5A33242CE376007E7870 /* JEFCityViewController.swift in Sources */,
+				C54C5A1F242BEE4E007E7870 /* JEFWeather.m in Sources */,
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
+				C54C5A1B242BEAD6007E7870 /* JEFCityAirQuality.m in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
+				C54C5A2A242CD7C6007E7870 /* JEFCountryListViewController.swift in Sources */,
+				C54C5A22242BEF98007E7870 /* JEFPollution.m in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
